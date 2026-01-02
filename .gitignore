@@ -1,0 +1,21 @@
+# WhatsApp session data (contains login info)
+whatsapp_session/
+
+# QR codes folder (user's private data)
+qr_codes/*.jpeg
+qr_codes/*.jpg
+qr_codes/*.png
+
+# Keep the folder but not the images
+!qr_codes/.gitkeep
+
+# Failed numbers log
+failed_numbers.txt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
